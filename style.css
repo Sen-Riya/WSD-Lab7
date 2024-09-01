@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  
+  margin: 0;
+  padding: 0;
+  background-color:#E34A6F;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+h1 {
+  color:black;
+  text-align: center;
+}
+
+#controls {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#search, #sort {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.book {
+  background:#F7B2BD;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.page-btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+h3{
+  line-height: 1.5;
+}
+p{
+  line-height: 1;
+}
